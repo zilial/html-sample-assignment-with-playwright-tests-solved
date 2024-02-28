@@ -18,6 +18,7 @@ This assignment should prove that a student is able to:
 - [ ] Download the zipped project file from github
 - [ ] Extract the contents of the zipped file
 - [x] Move the extracted folder into your favorite location (optional)
+- [ ] Open the project folder in VSCode
 - [ ] Initialize playwright and install project packages
   - [ ] Use `npm i` to install packages
   - [ ] Use `npx playwright install` to install the browser environment for testing
