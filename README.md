@@ -21,13 +21,13 @@ This assignment should prove that a student is able to:
 - [ ] Open the project folder in VSCode
 - [ ] Initialize playwright and install project packages
   - [ ] Use `npm i` to install packages
-  - [ ] Use `npx playwright install` to install the browser environment for testing
+  - [ ] Use `npx playwright install chromium` to install the browser environment for testing
   - [ ] Follow the terminal instructions to complete the installation.
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix the errors in case they don't BEFORE you submit (acceptance criteria)
-  - [ ] Use `npx playwright` test to run all tests in the terminal
-  - [ ] Use `npx playwright test --ui` to run all the tests with GUI
-  - [ ] Use `npx playwright show-report` to see the latest report in the browser
+  - [ ] Use `npx playwright test` test to run all tests in the terminal
+  - [ ] (Optional) Use `npx playwright test --ui` to run all the tests with GUI
+  - [ ] (Optional) Use `npx playwright show-report` to see the latest report in the browser
 - [ ] VSCode IDE MUST have 0 problems listed
 - [ ] The code MUST be formatted with Prettier
 - [ ] Compress (zip) the project folder and submit it through the assignment form, when finished.
