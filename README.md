@@ -14,12 +14,15 @@ The live-server NPM package page: [Link](https://www.npmjs.com/package/live-serv
 
 This assignment should prove that a student is able to:
 
-- Download the assignment zipped file from Github
-- Extract assignment files and open the assignment project folder in VSCode
+- Fork from the project repository
+- Clone the project to your computer
 - Install dependencies
 - Run tests
 - Read and understand test results
-- Submit assignments
+- Add changed files to staging
+- Commit git repo changes
+- Push code updated to the remote repository
+- Submit assignments as Github repo URLs
 
 ## Standard requirements
 
