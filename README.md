@@ -7,7 +7,7 @@ If you are not using VSCode you can install and run the "live-server" npm packag
 - [ ] Use `npm i live-server` to install the live-server package
 - [ ] Use `npm run live-server` or `npx live-server --port=5551` to run the live-server. The port number should be 5551 strictly.
 
-The live-server installation video: [Video](https://www.loom.com/share/ca99ebec79d14bfa9fc4dd012661f919?sid=0c702a22-c5bd-4608-93d2-0643aecb4b07)
+The live-server installation video: [Video](https://www.loom.com/share/ca99ebec79d14bfa9fc4dd012661f919?sid=0c702a22-c5bd-4608-93d2-0643aecb4b07)  
 The live-server NPM package page: [Link](https://www.npmjs.com/package/live-server)
 
 ## Learning objectives
