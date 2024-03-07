@@ -19,6 +19,7 @@ This assignment should prove that a student is able to:
 - Install dependencies
 - Run tests
 - Read and understand test results
+- Check the status of the local git repository
 - Add changed files to staging
 - Commit git repo changes
 - Push code updated to the remote repository
