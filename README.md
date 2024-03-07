@@ -27,20 +27,19 @@ This assignment should prove that a student is able to:
 - [ ] Windows (WSL) setup instructions
   - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
   - [ ] If you open the project in WSL the first time you need to follow some additional steps:
-    - [ ] Install the WSL extension through the extensions section
+    - [ ] If you are prompted to install the WSL extension, please install it, otherwise find the "WSL" in the extensions and install it
     - [ ] Close VSCode
-    - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`. Before the project opens in will install the VSCode server in your Ubuntu distribution.
-    - [ ] Install the Live Server Server extension
+    - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`. Before the project opens it will install the VSCode server in your Ubuntu distribution.
+    - [ ] Install the Live Server extension
   - [ ] Initialize playwright and install project packages
     - [ ] Use `npm i` to install packages
-    - [ ] Use `npm run browser-install` to install the browser environment for testing (131 mbs will be downloaded)
-    - [ ] Use `npm run deps-install` to install playwright additional dependencies (160 mbs will be downloaded)
+    - [ ] Use `npm run browser-install` to install the browser environment for testing (131mb will be downloaded)
+    - [ ] Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
 - [ ] MacOS setup Instructions (skip if you are on Windows)
   - [ ] Open the project in VSCode
   - [ ] Initialize playwright and install project packages
     - [ ] Use `npm i` to install packages
     - [ ] Use `npm run browser-install` to install the browser environment for testing
-    - [ ] Follow the terminal instructions to complete the installation.
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix the errors in case any tests don't pass BEFORE you submit (acceptance criteria)
   - [ ] Use `npm run test` to run all tests in the terminal
