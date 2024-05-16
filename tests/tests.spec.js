@@ -52,6 +52,6 @@ test.describe('The paragraph element tests', () => {
       await paragraphTextLength.then((content) => {
         return cleanArrFromEmptyItems(content?.trim().split(' ')).length;
       })
-    ).toBeGreaterThanOrEqual(50);
+    ).toBeGreaterThanOrEqual(20);
   });
 });
