@@ -1,6 +1,10 @@
+const {
+  'liveServer.settings.port': liveServerPort,
+} = require('../.vscode/settings.json');
+
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const mainPageUrl = 'http://localhost:5551/index.html';
+const mainPageUrl = `http://localhost:${liveServerPort}/index.html`;
 const cleanArrFromEmptyItems = (arr) => arr.filter((item) => item !== '');
 
 test.beforeEach(async ({ page }) => {
@@ -38,7 +42,7 @@ test.describe('The paragraph element tests', () => {
     await expect(locator).toBeAttached();
   });
 
-  test('There is just a single paragraph HTML Element (<p></p>) set on the page', async ({
+  test('A single paragraph HTML Element (<p></p>) is set on the page', async ({
     page,
   }) => {
     const locator = page.locator('p');
