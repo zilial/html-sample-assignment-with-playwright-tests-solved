@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "browser-install": "npx playwright install chromium",
-    "deps-install": "npx playwright install-deps",
+    "browser-install": "npx playwright install-deps && npx playwright install chromium",
     "test": "npx playwright test",
     "test-ui": "npx playwright test --ui",
-    "show-report": "npx playwright show-report",
-    "live-server": "npx live-server --port=5551"
+    "show-report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +15,5 @@
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^20.11.20"
-  },
-  "dependencies": {
-    "live-server": "^1.2.2"
   }
 }

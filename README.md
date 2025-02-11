@@ -33,7 +33,6 @@ This assignment should prove that a student is able to:
 - [ ] Initialize playwright and install project packages
   - [ ] Use `npm i` to install packages
   - [ ] Use `npm run browser-install` to install the browser environment for testing (131mb will be downloaded)
-  - [ ] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix the errors in case any tests don't pass BEFORE you submit (acceptance criteria)
   - [ ] Use `npm run test` to run all tests in the terminal
