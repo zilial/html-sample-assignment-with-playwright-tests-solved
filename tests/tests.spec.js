@@ -103,7 +103,6 @@ describe("Body contents test", () => {
     expect(
       await paragraphTextLength.then((content) => {
         return cleanArrFromEmptyItems(content?.trim().split(" ")).length;
-        return cleanArrFromEmptyItems(content?.trim().split(" ")).length;
       })
     ).toBeGreaterThanOrEqual(20);
   });
